@@ -18,8 +18,6 @@
 	</array>
 	<key>com.apple.developer.ubiquity-kvstore-identifier</key>
 	<string>$(TeamIdentifierPrefix)$(CFBundleIdentifier)</string>
-    <key>com.apple.developer.playable-content</key>
-    <true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
 		<string>group.$(CFBundleIdentifier).files</string>
