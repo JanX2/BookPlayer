@@ -1,4 +1,16 @@
+// Based on:
+// https://thoughtbot.com/blog/let-s-setup-your-ios-environments
+BP_APP_NAME = BookPlayer
+BP_REVERSE_DOMAIN_ROOT = com.tortugapower
 #include? "DEVELOPMENT_TEAM.xcconfig"
+
+BP_APP_BUNDLE_ID = $(BP_REVERSE_DOMAIN_ROOT).audiobookplayer
+BP_WIDGET_UI_ID = $(BP_APP_BUNDLE_ID).BookPlayerWidgetUI
+BP_WIDGET_ID = $(BP_APP_BUNDLE_ID).BookPlayerWidget
+BP_INTENTS_ID = $(BP_APP_BUNDLE_ID).BookPlayerIntents
+BP_WATCHKITAPP_ID = $(BP_APP_BUNDLE_ID).watchkitapp
+BP_WATCHKITEXTENSION_ID = $(BP_WATCHKITAPP_ID).watchkitextension
+BP_WATCHKIT_ID = $(BP_REVERSE_DOMAIN_ROOT).BookPlayerWatchKit
 
 // Create the file DEVELOPMENT_TEAM.xcconfig
 // in the "Xcode-config" directory within the project directory
