@@ -421,6 +421,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D0B26692607BA4D00B80C92 /* DEVELOPMENT_TEAM.template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DEVELOPMENT_TEAM.template.xcconfig; sourceTree = "<group>"; };
 		3D62E44626038ACC00B0748B /* DEVELOPMENT_TEAM.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DEVELOPMENT_TEAM.xcconfig; sourceTree = "<group>"; };
 		3D62E44726038ACC00B0748B /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
 		410641272579AA2F008EB8D0 /* TimeListenedWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeListenedWidgetView.swift; sourceTree = "<group>"; };
@@ -802,6 +803,7 @@
 			isa = PBXGroup;
 			children = (
 				3D62E44626038ACC00B0748B /* DEVELOPMENT_TEAM.xcconfig */,
+				3D0B26692607BA4D00B80C92 /* DEVELOPMENT_TEAM.template.xcconfig */,
 				3D62E44726038ACC00B0748B /* Shared.xcconfig */,
 			);
 			path = "Xcode-config";
